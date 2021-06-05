@@ -1,0 +1,15 @@
+num1 = int(input("Birinci Sayıyı Giriniz:"))
+num2 = int(input("İkinci Sayıyı Giriniz"))
+
+op = input("Bir İşlem Seçiniz (+,-,*,/):)
+
+if op== "+":
+print (num1, "+", num2, "=", num1+num2)
+elif op == "-":
+print (num1, "-", num2, "=", num1-num2)
+elif op == "*":
+print (num1, "*", num2, "=", num1*num2)
+elif op == "/":
+print (num1, "/", num2, "=", num1/num2)
+else:
+print("Programımızda Böyle Bir İşlem Yoktur")
