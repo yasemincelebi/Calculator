@@ -1,7 +1,7 @@
-num1 = int(input("Birinci Sayıyı Giriniz:"))
-num2 = int(input("İkinci Sayıyı Giriniz"))
+num1 = int(input("Enter the first number:"))
+num2 = int(input("Enter the second number"))
 
-op = input("Bir İşlem Seçiniz (+,-,*,/):)
+op = input("Select a transaction (+,-,*,/):)
 
 if op== "+":
 print (num1, "+", num2, "=", num1+num2)
@@ -12,4 +12,4 @@ print (num1, "*", num2, "=", num1*num2)
 elif op == "/":
 print (num1, "/", num2, "=", num1/num2)
 else:
-print("Programımızda Böyle Bir İşlem Yoktur")
+print("There Is No Such Process In Our Program")
